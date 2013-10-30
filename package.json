@@ -1,0 +1,29 @@
+{
+   "name":"data-file",
+   "description":"For when you just need a local file",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/data-file",
+   "repository":"git://github.com/wearefractal/data-file.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+   
+   "dependencies":{
+      "mkdirp":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*"
+   },
+   "scripts":{
+      "test":"mocha"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/data-file/raw/master/LICENSE"
+      }
+   ]
+}
